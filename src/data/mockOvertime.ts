@@ -1,0 +1,48 @@
+import { OvertimeRecord } from '../types/footwear';
+
+export const initialOvertimeSchedules: OvertimeRecord[] = [
+  {
+    id: 'ot-001',
+    date: '2026-11-01',
+    department: 'Sample Room Upper Stitching & Assembly',
+    cellOrLine: 'Stitching Cell 4B (Proto & SS Rush Line)',
+    shiftHours: '17:00 - 21:00 (4.0 hrs OT)',
+    headcount: 24,
+    targetTask: 'Rush 18 pairs GTM 2 Proto upper stitch + 6 pairs SS Reline Confirm samples',
+    supervisor: 'Pak Sugeng (Dev Production Lead)',
+    status: 'active',
+  },
+  {
+    id: 'ot-002',
+    date: '2026-11-01',
+    department: 'CAD & CNC Laser Cutting Cell',
+    cellOrLine: 'Gerber Automated Laser Cutter #1 & #2',
+    shiftHours: '17:00 - 20:00 (3.0 hrs OT)',
+    headcount: 8,
+    targetTask: 'Precision cut Matryx Jacquard 240g & Schoeller Kevlar for AeroStride and TerraGrip',
+    supervisor: 'Ibu Nurul (Pattern Engineer)',
+    status: 'active',
+  },
+  {
+    id: 'ot-003',
+    date: '2026-11-01',
+    department: 'Color Matching & Physical Testing Lab',
+    cellOrLine: 'D65/TL84 Spectrophotometer Booth & Bally Flex Station',
+    shiftHours: '18:00 - 21:00 (3.0 hrs OT)',
+    headcount: 6,
+    targetTask: 'Delta-E re-measurement for Vibram Solar Volt compound & Bally flex validation',
+    supervisor: 'Ir. Hendra (QA Chemist)',
+    status: 'scheduled',
+  },
+  {
+    id: 'ot-004',
+    date: '2026-11-01',
+    department: 'Bottom Unit Mold & Cold Press Cell',
+    cellOrLine: 'Press Station 3 (Carbon Plate Bonding)',
+    shiftHours: '17:30 - 21:30 (4.0 hrs OT)',
+    headcount: 10,
+    targetTask: 'Toray carbon plate insertion & EVA supercritical foam bonding for FSC golden trial',
+    supervisor: 'Bambang Triyono (Dev Tech)',
+    status: 'scheduled',
+  },
+];

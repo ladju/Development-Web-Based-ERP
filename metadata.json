@@ -1,0 +1,6 @@
+{
+  "name": "PWI2 Dev Project Track ERP",
+  "description": "Footwear development tracking and commercialization ERP for monitoring material sourcing, arrival history, AWB tracking, 8 development stages (GTM 1, GTM 2, Line Confirm, Reline Confirm, Salesman Sample, Prod. Confirm, FSC, XTR), and shipment deadlines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
